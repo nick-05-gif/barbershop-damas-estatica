@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* ===== PALETA BARBER POLE ===== */
+/* Tokens de diseño centralizados para toda la app */
+
+@theme inline {
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  --color-barber-red: #C8102E;
+  --color-barber-red-hover: #A00D24;
+  --color-barber-blue: #1E3A5F;
+  --color-barber-blue-light: #2A4F7F;
+  --color-barber-white: #F5F5F5;
+  --color-barber-dark: #1A1A2E;
+  --color-barber-dark-lighter: #16213E;
+  --color-barber-gold: #D4A853;
+  --color-barber-gold-hover: #B88A36;
+  --color-barber-gray: #2D2D3F;
+  --color-barber-gray-light: #3D3D5C;
+  --color-barber-success: #22C55E;
+  --color-barber-error: #EF4444;
+}
+
+/* ===== ESTILOS BASE ===== */
+
+body {
+  background-color: var(--color-barber-dark);
+  color: var(--color-barber-white);
+}
+
+/* Scrollbar personalizada para navegadores Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-barber-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-barber-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-barber-gray-light);
+}
+
+/* Transiciones suaves por defecto en elementos interactivos */
+a, button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Focus visible accesible */
+:focus-visible {
+  outline: 2px solid var(--color-barber-gold);
+  outline-offset: 2px;
+}
+
+/* Scroll suave para los enlaces ancla (#servicios, #contacto) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== ANIMACIONES ===== */
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out both;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s ease-out both;
+  animation-delay: 0.2s;
+}
+
+.animate-slide-up-delay {
+  animation: slide-up 0.8s ease-out both;
+  animation-delay: 0.5s;
+}
+
+.animate-slide-up-delay-2 {
+  animation: slide-up 0.8s ease-out both;
+  animation-delay: 0.8s;
+}
