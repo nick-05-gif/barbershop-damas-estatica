@@ -37,7 +37,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+34684113157"
+              href="tel:+34976240378"
               className="bg-barber-gold hover:bg-barber-gold-hover text-barber-dark font-semibold px-6 py-2.5 rounded-lg transition-all hover:scale-105 hover:shadow-lg hover:shadow-barber-gold/25"
             >
               Reservar
@@ -72,7 +72,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="tel:+34684113157"
+            href="tel:+34976240378"
             onClick={() => setMenuAbierto(false)}
             className="bg-barber-gold hover:bg-barber-gold-hover text-barber-dark font-semibold px-6 py-3 rounded-lg text-center transition-all"
           >

@@ -39,7 +39,7 @@ export default function Hero() {
 
         <div className="animate-slide-up-delay-2">
           <a
-            href="tel:+34684113157"
+            href="tel:+34976240378"
             className="group relative inline-flex items-center gap-3 bg-barber-gold text-barber-dark font-bold text-lg sm:text-xl px-10 sm:px-14 py-5 sm:py-6 rounded-2xl transition-all duration-300 hover:bg-barber-gold-hover hover:scale-105 hover:shadow-2xl hover:shadow-barber-gold/30 active:scale-100"
           >
             <span className="absolute inset-0 rounded-2xl bg-barber-gold/50 blur-xl opacity-0 group-hover:opacity-60 transition-opacity duration-300" />

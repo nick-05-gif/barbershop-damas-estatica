@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="flex items-center gap-6 text-sm text-barber-white/40">
             <a href="#servicios">Servicios</a>
             <a href="#contacto">Contacto</a>
-            <a href="tel:+34684113157">Reservar</a>
+            <a href="tel:+34976240378">Reservar</a>
           </div>
         </div>
       </div>

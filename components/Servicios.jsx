@@ -32,7 +32,7 @@ export default function Servicios() {
           {SERVICIOS.filter((s) => s.id !== 3).map((servicio) => (
             <a
               key={servicio.id}
-              href="tel:+34684113157"
+              href="tel:+34976240378"
               className="group relative bg-barber-gray/50 border border-white/5 rounded-2xl overflow-hidden transition-all duration-300 hover:bg-barber-gray/80 hover:border-barber-gold/20 hover:shadow-xl hover:shadow-barber-gold/5 hover:-translate-y-1 cursor-pointer block"
             >
               <div className="relative h-40 overflow-hidden">
